@@ -4,7 +4,7 @@ A small real-time strategy game in the spirit of the classic desert RTS games. I
 
 ## Play
 
-Open `index.html` in any modern browser (Safari, Chrome, Firefox). Or serve the folder:
+Open `index.html` in any modern browser with WebGL 2 (Safari 15+, Chrome, Firefox). Or serve the folder:
 
 ```sh
 python3 -m http.server 8000   # then visit http://localhost:8000
@@ -16,7 +16,7 @@ Build a Windtrap, then a Refinery (it comes with a free Harvester), and grow you
 
 ## Graphics & audio
 
-Everything is generated in code, with no image or audio files: lit procedural terrain, shaded sprites with shadows, particle explosions, smoke and scorch marks, soft fog of war, synthesized sound effects, spoken alerts using your system's text-to-speech voice, and an original adaptive soundtrack that intensifies during combat. Toggle music and sound with the ♫ and 🔊 buttons in the sidebar.
+Everything is generated in code, with no image, model or audio files. A custom WebGL 2 renderer draws real 3D models, raised rock plateaus and mountains, sunlight with soft shadow-mapped shadows, and an angled C&C-style camera, along with particle explosions, smoke and scorch marks, soft fog of war, synthesized sound effects, spoken alerts using your system's text-to-speech voice, and an original adaptive soundtrack that intensifies during combat. Toggle music and sound with the ♫ and 🔊 buttons in the sidebar.
 
 ## Controls
 
